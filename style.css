@@ -7,7 +7,7 @@
     font-family: inter, sans-serif;
 }
 
-/* Fundo do site */
+
 body {
     background-color: #000;
 
@@ -21,7 +21,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Fumaça roxa vindo de cima */
+
 body::before {
     content: "";
     position: absolute;
@@ -45,7 +45,7 @@ body::before {
 }
 
 
-/* Navbar */
+
 .navbar {
     width: 100%;
     height: 100px;
@@ -59,14 +59,14 @@ body::before {
     z-index: 5;
 }
 
-/* Logo */
+
 .logo {
     color: #fff;
     font-size: 27px;
     font-weight: bold;
 }
 
-/* Menu */
+
 .menu {
     display: flex;
     gap: 30px;
@@ -81,7 +81,7 @@ body::before {
     transition: color 0.3s ease;
 }
 
-/* Linha degradê roxa */
+
 .menu a::after {
     content: "";
     position: absolute;
@@ -95,7 +95,6 @@ body::before {
     transition: width 0.3s ease;
 }
 
-/* Hover */
 .menu a:hover {
     color: #ffffff;
 }
@@ -104,7 +103,7 @@ body::before {
     width: 100%;
 }
 
-/* (Opcional) Animação leve da fumaça */
+
 @keyframes smoke {
     0% { transform: translateY(0); }
     100% { transform: translateY(40px); }
@@ -114,7 +113,7 @@ body::before {
     animation: smoke 12s ease-in-out infinite alternate;
 }
 
-/* HERO */
+
 .hero {
     min-height: calc(100vh - 100px);
     display: flex;
@@ -128,7 +127,7 @@ body::before {
     padding: 0 20px;
 }
 
-/* Badge */
+
 .hero-badge {
     color: #c084fc;
     border: 1px solid rgba(192, 132, 252, 0.4);
@@ -140,7 +139,7 @@ body::before {
     backdrop-filter: blur(4px);
 }
 
-/* Título */
+
 .hero-title {
     font-size: 90px;
     font-weight: 800;
@@ -155,7 +154,7 @@ body::before {
     
 }
 
-/* Subtítulo */
+
 .hero-subtitle {
     color: #bfbfbf;
     font-size: 18px;
@@ -212,7 +211,7 @@ body::before {
     background-color: #0c0c0c;
 }
 
-/* Scroll */
+
 .hero-scroll {
     display: flex;
     flex-direction: column;
@@ -224,7 +223,7 @@ body::before {
     transition: color 0.3s ease;
 }
 
-/* Ícone */
+
 .scroll-icon {
     width: 36px;
     height: 36px;
@@ -240,14 +239,14 @@ body::before {
 }
 
 
-/* Hover no círculo */
+
 .hero-scroll:hover .scroll-icon {
     border-color: #a855f7;
     color: #a855f7;
     box-shadow: 0 0 20px rgba(168, 85, 247, 0.8);
 }
 
-/* ===== SOBRE NÓS ===== */
+
 .about {
     padding: 120px 0;
     position: relative;
@@ -257,14 +256,14 @@ body::before {
     justify-content: center;
 }
 
-/* Container central */
+
 .about-container {
     width: 100%;
     max-width: 1200px;
     padding: 0 40px;
 }
 
-/* Cabeçalho */
+
 .about-header {
     margin-bottom: 50px;
 }
@@ -290,7 +289,6 @@ body::before {
     color: #a855f7;
 }
 
-/* Conteúdo principal */
 .about-content {
     display: grid;
     grid-template-columns: 1.2fr 1fr;
@@ -298,7 +296,7 @@ body::before {
     align-items: center;
 }
 
-/* Texto */
+
 .about-text p {
     color: #bfbfbf;
     font-size: 16px;
@@ -314,7 +312,7 @@ body::before {
     color: #a855f7;
 }
 
-/* Cards */
+
 .about-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -341,7 +339,7 @@ body::before {
     box-shadow: 0 0 40px rgba(168, 85, 247, 0.35);
 }
 
-/* Ícone */
+
 .card-icon {
     width: 50px;
     height: 50px;
@@ -356,20 +354,18 @@ body::before {
     color: #fff;
 }
 
-/* Número */
+
 .about-card h3 {
     font-size: 28px;
     color: #a855f7;
 }
 
-/* Texto do card */
+
 .about-card p {
     font-size: 14px;
     color: #bfbfbf;
 }
-/* ========================= */
-/* SERVICES */
-/* ========================= */
+
 
 .services {
     padding: 120px 0;
@@ -385,7 +381,7 @@ body::before {
     padding: 0 40px;
 }
 
-/* HEADER */
+
 .services-header {
     text-align: center;
     margin-bottom: 70px;
@@ -411,14 +407,14 @@ body::before {
     color: #a855f7;
 }
 
-/* GRID */
+
 .services-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 
-/* CARD */
+
 .service-card {
     background: #000;
     border: 1px solid rgba(255,255,255,0.12);
@@ -432,7 +428,7 @@ body::before {
     border-color: rgba(255,255,255,0.3);
 }
 
-/* IMAGE */
+
 .service-image {
     position: relative;
     width: 100%;
@@ -453,7 +449,6 @@ body::before {
 
 
 
-/* TEXT OVER IMAGE */
 .service-overlay {
     position: absolute;
     bottom: 0;
@@ -478,7 +473,7 @@ body::before {
     color: #9ca3af;
 }
 
-/* LINK */
+
 .service-overlay a {
     margin-top: 14px;
     font-size: 12px;
@@ -498,9 +493,8 @@ body::before {
     height: 1px;
     background: rgba(255,255,255,0.4);
 }
-/* ========================= */
-/* PROCESSO / DIFERENCIAIS */
-/* ========================= */
+
+
 
 .process {
     padding: 120px 0;
@@ -510,7 +504,6 @@ body::before {
     justify-content: center;
 }
 
-/* fundo roxo sutil (SEM blur excessivo) */
 
 
 .process-container {
@@ -524,9 +517,7 @@ body::before {
     z-index: 1;
 }
 
-/* ========================= */
-/* TEXTO ESQUERDA */
-/* ========================= */
+
 
 .process-badge {
     display: inline-block;
@@ -562,9 +553,7 @@ body::before {
     color: #fff;
 }
 
-/* ========================= */
-/* STEPS */
-/* ========================= */
+
 
 .process-steps {
     position: relative;
@@ -573,11 +562,10 @@ body::before {
     gap: 26px;
 }
 
-/* linha vertical CENTRALIZADA */
 .process-steps::before {
     content: "";
     position: absolute;
-    left: 22px;        /* centro da bolinha */
+    left: 22px;
     top: 6px;
     bottom: 6px;
     width: 1px;
@@ -598,20 +586,16 @@ body::before {
     opacity: 1;
 }
 
-/* BOLINHA — NEUTRA, SEM ROXO, SEM GLOW */
 .step-dot {
     width: 44px;
     height: 44px;
     border-radius: 999px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     background: rgba(255,255,255,0.04);
     border: 1px solid rgba(255,255,255,0.18);
     box-shadow: none;
-
     position: relative;
     z-index: 2;
 }
@@ -622,7 +606,6 @@ body::before {
     color: rgba(255,255,255,0.85);
 }
 
-/* ativo — apenas levemente destacado (SEM COR ROXA) */
 .step.active .step-dot {
     background: rgba(255,255,255,0.07);
     border-color: rgba(255,255,255,0.28);
@@ -641,10 +624,6 @@ body::before {
     line-height: 1.7;
     margin: 0;
 }
-
-/* ========================= */
-/* IMPACTO REAL (DIREITA) */
-/* ========================= */
 
 .impact-header h3 {
     color: #fff;
@@ -666,47 +645,38 @@ body::before {
     box-shadow: 0 18px 50px rgba(0,0,0,0.45);
 }
 
-/* gráfico */
-/* GRÁFICO */
 .impact-bars {
     position: relative;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 14px;
     align-items: end;
-
     height: 260px;
-    padding: 34px 8px 28px; /* espaço fixo para labels */
+    padding: 34px 8px 28px;
 }
 
-/* “Base” do gráfico (linha invisível que define o chão) */
 .impact-bars::after {
     content: "";
     position: absolute;
     left: 8px;
     right: 8px;
-    bottom: 24px; /* mesmo nível dos labels */
+    bottom: 24px;
     height: 1px;
     background: rgba(255,255,255,0.10);
 }
 
-/* Barra */
 .bar {
     position: relative;
     height: var(--h);
     border-radius: 12px;
-
     background: linear-gradient(
         to top,
         rgba(168,85,247,0.25),
         rgba(168,85,247,0.65)
     );
-
     transform: translateY(12px);
     opacity: 0;
     transition: transform 0.6s ease, opacity 0.6s ease;
-
-    /* empurra a barra pra “sentar” na base */
     margin-bottom: 24px;
 }
 
@@ -715,34 +685,28 @@ body::before {
     opacity: 1;
 }
 
-/* Valor acima da barra */
 .bar-top {
- position: absolute;
+    position: absolute;
     left: 50%;
     transform: translateX(-50%);
-
-    bottom: calc(100% + 10px); /* fica acima da barra */
-    top: auto;                 /* garante que não use top */
-
+    bottom: calc(100% + 10px);
+    top: auto;
     font-size: 12px;
     color: #c084fc;
     white-space: nowrap;
 }
 
-/* Label de baixo SEM TORTO (fixo na mesma altura) */
 .bar-label {
     position: absolute;
-    bottom: -22px; /* sempre igual */
+    bottom: -22px;
     left: 50%;
     transform: translateX(-50%);
-
     font-size: 11px;
     letter-spacing: 1px;
     color: rgba(255,255,255,0.75);
     white-space: nowrap;
 }
 
-/* Destaque AGORA */
 .bar.highlight {
     background: linear-gradient(
         to top,
@@ -751,19 +715,13 @@ body::before {
     );
 }
 
-/* ========================= */
-/* CONTATO / CTA FINAL */
-/* ========================= */
-
 .contact {
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
     overflow: hidden;
-
     background:
         radial-gradient(
             ellipse at center,
@@ -772,17 +730,14 @@ body::before {
         );
 }
 
-/* leve textura/grid (opcional, combina com seu site) */
 .contact::after {
     content: "";
     position: absolute;
     inset: 0;
-
     background-image:
         linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
         linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
     background-size: 80px 80px;
-
     pointer-events: none;
     opacity: 0.35;
 }
@@ -793,7 +748,6 @@ body::before {
     z-index: 2;
 }
 
-/* Título */
 .contact-title {
     font-size: 72px;
     font-weight: 900;
@@ -802,47 +756,36 @@ body::before {
     margin-bottom: 40px;
 }
 
-/* ========================= */
-/* BOTÃO COM BRILHO CIRCULAR */
-/* ========================= */
-
 .contact-btn {
     position: relative;
     display: inline-flex;
     align-items: center;
     gap: 14px;
-
     padding: 22px 48px;
     border-radius: 999px;
-
     background: linear-gradient(
         90deg,
         #7f00ff,
         #a855f7,
         #e100ff
     );
-
     color: #ffffff;
     font-size: 15px;
     font-weight: 700;
     letter-spacing: 1px;
     text-decoration: none;
-
     box-shadow:
         0 0 30px rgba(168,85,247,0.45),
         inset 0 0 0 1px rgba(255,255,255,0.15);
-
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Ícone */
 .contact-btn i {
     width: 18px;
     height: 18px;
 }
 
-/* Hover */
 .contact-btn:hover {
     transform: translateY(-3px);
     box-shadow:
@@ -850,15 +793,10 @@ body::before {
         inset 0 0 0 1px rgba(255,255,255,0.25);
 }
 
-/* ========================= */
-/* ANEL DE LUZ GIRANDO */
-/* ========================= */
-
 .btn-ring {
     position: absolute;
     inset: -3px;
     border-radius: 999px;
-
     background: conic-gradient(
         from 0deg,
         transparent 0%,
@@ -866,28 +804,24 @@ body::before {
         transparent 20%,
         transparent 100%
     );
-
     animation: spin 2.4s linear infinite;
     filter: blur(2px);
     opacity: 0.85;
     pointer-events: none;
 }
 
-/* esconde o anel atrás do botão */
 .contact-btn span,
 .contact-btn i {
     position: relative;
     z-index: 2;
 }
 
-/* Animação */
 @keyframes spin {
     to {
         transform: rotate(360deg);
     }
 }
 
-/* Footer */
 .contact-footer {
     margin-top: 60px;
     font-size: 12px;
@@ -896,184 +830,188 @@ body::before {
 }
 
 @media (min-width: 1400px) {
-  .hero-title {
-    font-size: 96px;
-  }
+    .hero-title {
+        font-size: 96px;
+    }
 
-  .services-container {
-    max-width: 1400px;
-  }
+    .services-container {
+        max-width: 1400px;
+    }
 
-  .process-container {
-    max-width: 1300px;
-  }
+    .process-container {
+        max-width: 1300px;
+    }
 }
+
 @media (max-width: 1200px) {
-  .navbar {
-    padding: 0 80px;
-  }
+    .navbar {
+        padding: 0 80px;
+    }
 
-  .hero-title {
-    font-size: 72px;
-  }
+    .hero-title {
+        font-size: 72px;
+    }
 
-  .about-content {
-    grid-template-columns: 1fr;
-    gap: 60px;
-  }
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
 
-  .about-cards {
-    margin-top: 0;
-  }
+    .about-cards {
+        margin-top: 0;
+    }
 
-  .services-cards {
-    grid-template-columns: repeat(2, 1fr);
-  }
+    .services-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
-  .process-container {
-    grid-template-columns: 1fr;
-    gap: 70px;
-  }
+    .process-container {
+        grid-template-columns: 1fr;
+        gap: 70px;
+    }
 }
+
 @media (max-width: 900px) {
-  .navbar {
-    padding: 0 40px;
-  }
+    .navbar {
+        padding: 0 40px;
+    }
 
-  .menu {
-    gap: 20px;
-  }
+    .menu {
+        gap: 20px;
+    }
 
-  .hero-title {
-    font-size: 60px;
-  }
+    .hero-title {
+        font-size: 60px;
+    }
 
-  .hero-subtitle {
-    font-size: 16px;
-  }
+    .hero-subtitle {
+        font-size: 16px;
+    }
 
-  .services-cards {
-    grid-template-columns: 1fr;
-  }
+    .services-cards {
+        grid-template-columns: 1fr;
+    }
 
-  .service-image {
-    height: 280px;
-  }
+    .service-image {
+        height: 280px;
+    }
 
-  .process-title {
-    font-size: 48px;
-  }
+    .process-title {
+        font-size: 48px;
+    }
 
-  .impact-bars {
-    height: 220px;
-  }
+    .impact-bars {
+        height: 220px;
+    }
 
-  .contact-title {
-    font-size: 56px;
-  }
+    .contact-title {
+        font-size: 56px;
+    }
 }
+
 @media (max-width: 600px) {
-  .navbar {
-    padding: 0 24px;
-    height: 80px;
-  }
+    .navbar {
+        padding: 0 24px;
+        height: 80px;
+    }
 
-  .menu {
-    display: none; /* futuramente vira menu hamburguer */
-  }
+    .menu {
+        display: none;
+    }
 
-  .hero {
-    padding-top: 40px;
-  }
+    .hero {
+        padding-top: 40px;
+    }
 
-  .hero-title {
-    font-size: 44px;
-    line-height: 1.15;
-  }
+    .hero-title {
+        font-size: 44px;
+        line-height: 1.15;
+    }
 
-  .hero-subtitle {
-    font-size: 15px;
-  }
+    .hero-subtitle {
+        font-size: 15px;
+    }
 
-  .hero-buttons {
-    flex-direction: column;
-    width: 100%;
-    gap: 14px;
-  }
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+        gap: 14px;
+    }
 
-  .btn {
-    width: 100%;
-    text-align: center;
-  }
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
 
-  .about-container,
-  .services-container,
-  .process-container {
-    padding: 0 24px;
-  }
+    .about-container,
+    .services-container,
+    .process-container {
+        padding: 0 24px;
+    }
 
-  .about-title,
-  .services-title {
-    font-size: 40px;
-  }
+    .about-title,
+    .services-title {
+        font-size: 40px;
+    }
 
-  .about-cards {
-    grid-template-columns: 1fr;
-  }
+    .about-cards {
+        grid-template-columns: 1fr;
+    }
 
-  .process-title {
-    font-size: 42px;
-  }
+    .process-title {
+        font-size: 42px;
+    }
 
-  .impact-card {
-    padding: 16px;
-  }
+    .impact-card {
+        padding: 16px;
+    }
 
-  .impact-bars {
-    height: 200px;
-  }
+    .impact-bars {
+        height: 200px;
+    }
 
-  .contact-title {
-    font-size: 42px;
-  }
+    .contact-title {
+        font-size: 42px;
+    }
 
-  .contact-btn {
-    padding: 18px 30px;
-    font-size: 14px;
-  }
+    .contact-btn {
+        padding: 18px 30px;
+        font-size: 14px;
+    }
 }
+
 @media (max-width: 420px) {
-  .hero-title {
-    font-size: 38px;
-  }
+    .hero-title {
+        font-size: 38px;
+    }
 
-  .services-title,
-  .about-title {
-    font-size: 36px;
-  }
+    .services-title,
+    .about-title {
+        font-size: 36px;
+    }
 
-  .process-title {
-    font-size: 36px;
-  }
+    .process-title {
+        font-size: 36px;
+    }
 
-  .service-image {
-    height: 240px;
-  }
+    .service-image {
+        height: 240px;
+    }
 
-  .impact-bars {
-    height: 180px;
-    gap: 10px;
-  }
+    .impact-bars {
+        height: 180px;
+        gap: 10px;
+    }
 
-  .bar-label {
-    font-size: 10px;
-  }
+    .bar-label {
+        font-size: 10px;
+    }
 
-  .bar-top {
-    font-size: 11px;
-  }
+    .bar-top {
+        font-size: 11px;
+    }
 
-  .contact-title {
-    font-size: 36px;
-  }
+    .contact-title {
+        font-size: 36px;
+    }
 }
